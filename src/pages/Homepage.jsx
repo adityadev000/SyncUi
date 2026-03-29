@@ -4,7 +4,7 @@ import { LuCake } from "react-icons/lu";
 import { MdOutlineMailOutline } from "react-icons/md";
 
 const API_URL = import.meta.env.VITE_API_URL;
-const RESET_TIME = import.meta.env.VITE_RESET_TIME ;
+const RESET_TIME = Number(import.meta.env.VITE_RESET_TIME) ;
 
 export const Homepage = () => {
 
